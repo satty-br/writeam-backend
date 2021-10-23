@@ -6,11 +6,13 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
+import java.util.Date;
 
 @Data
 @Entity
-public class Usuario {
+public class User {
 
     @Id
     @GeneratedValue
@@ -21,9 +23,22 @@ public class Usuario {
     private String login;
 
     @NotBlank
-    private String senha;
+    private String password;
 
     @NotBlank
-    private String nome;
+    private String name;
+
+    @Email
+    private String email;
+
+    private String biography;
+
+    private String photo;
+
+    private String title;
+
+    private Long idAdress;
+
+    private Date dtCreate;
 
 }
