@@ -2,5 +2,5 @@ package br.com.satty.writeam.enums;
 
 
 public enum DocumentType {
-    Book, Paper, Job, Resume, Description;
+    Book, Paper, Job, Resume, Description
 }
