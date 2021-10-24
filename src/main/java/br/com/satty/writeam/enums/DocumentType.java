@@ -1,6 +1,4 @@
-package br.com.satty.writeam;
-
-import lombok.Data;
+package br.com.satty.writeam.enums;
 
 
 public enum DocumentType {

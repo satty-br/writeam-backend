@@ -1,6 +1,6 @@
 package br.com.satty.writeam.dtos;
 
-import br.com.satty.writeam.DocumentType;
+import br.com.satty.writeam.enums.DocumentType;
 import lombok.Data;
 
 @Data

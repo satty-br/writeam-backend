@@ -1,5 +1,5 @@
 package br.com.satty.writeam.services;
-
+/*
 
 import br.com.satty.writeam.cruds.UserCrud;
 import br.com.satty.writeam.cruds.UserCrud;
@@ -74,3 +74,4 @@ public class UserService {
         return userCrud.findAll(pageable).map(this::entityToDto);
     }
 }
+*/
